@@ -1,0 +1,86 @@
+body {
+    background-color: #e9cfcf; /* Color de fondo del cuerpo */
+    }
+    header {
+    background-color: #e99c9c; /* Color de fondo del encabezado */
+    }
+    section {
+    background-color: #c3b2f1; /* Color de fondo de las secciones */
+    }
+
+   
+    header h1 {
+        color: #d4c819; /* Color del texto del título principal */
+        }
+        p {
+        color: #333333; /* Color del texto de los párrafos */
+        }
+        /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    }
+    /* Encabezado */
+    header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    }
+    /* Menú de navegación */
+    nav {
+    background-color: #444;
+    color: #fff;
+    }
+    nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    }
+    nav ul li {
+    margin: 0 15px;
+    }
+    nav ul li a {
+    color:     #4fb6c9;
+    text-decoration: none;
+    }
+    nav ul li a:hover {
+        text-decoration: underline;
+        }
+        /* Contenido principal */
+        main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px;
+        }
+        main section {
+        flex: 1 1 45%;
+        margin: 10px;
+        padding: 20px;
+        background-color: #aa9ed6;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        /* Barra lateral */
+        aside {
+        flex: 1 1 20%;
+        margin: 10px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        /* Pie de página */
+        footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        }
